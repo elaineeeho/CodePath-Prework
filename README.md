@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/elaineeeho/CodePath-Prework/blob/master/ezgif.com-gif-maker.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [QuickTime Player.
+GIF created with [QuickTime Player].
 
 ## Notes
 
