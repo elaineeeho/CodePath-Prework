@@ -14,12 +14,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
+    
+    var counter = 0
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // Sets the title in the Navigation Bar
+        self.title  = "Tip Calculator"
+        
+        
+        
+        
+        
     }
     
-    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        billAmountTextField.becomeFirstResponder()
+    }
     
     @IBAction func calculateTip(_ sender: Any) {
         // Get bill amount from text field input
@@ -37,6 +54,17 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
     }
     
-
-}
+    
+    @IBAction func colorChangeButton(_ sender: UIButton) {
+        if counter == 0 {
+            view.backgroundColor = UIColor.purple
+        }
+        else if counter == 1 {
+            view.backgroundColor = UIColor.blue
+            counter = 0
+            return
+        }
+        counter += 1
+    }
+    }
 

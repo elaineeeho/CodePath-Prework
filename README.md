@@ -4,7 +4,7 @@
 
 Submitted by: **Elaine Ho**
 
-Time spent: **1** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -15,14 +15,18 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] UI animations
+* [X ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [ X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ X] List anything else that you can get done to improve the app functionality!
+
+-Settings View controller that changes the background color of the screens
+-allow users to choose which currency to use for the tip calculator
+-changed the UI (different colors, layout) --> allows for easier view of the labels
 
 ## Video Walkthrough
 
@@ -36,7 +40,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-Some challenges encountered while building the app was ensuring that each outlet was correctly connected to the view controller. It required great attention to ensure that the name of each outlet was correctly labeled. 
+Some challenges encountered while building the app was ensuring that each outlet was correctly connected to the view controller. It required great attention to ensure that the name of each outlet was correctly labeled. Another challenge I faced was deciding what to include in the settings: whether to include default tip settings, default background colors, default currency. It took a bit of time for me to figure out how to program my application to allow the backgroud color to change with the click of a button. 
 
 ## License
 
